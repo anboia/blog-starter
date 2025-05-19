@@ -13,7 +13,7 @@ const Layout = ({ children }: Props) => {
       <main className="grow">
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

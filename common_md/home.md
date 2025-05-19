@@ -1,56 +1,67 @@
 ---
-title: An Extendable Obsidian Publish alternative using Next.JS
-excerpt: Create your own template or use someone else's. Changing the template is a matter of updating one line
+title: AI Resources
+excerpt: My Notes
 ---
 
-## Problems with Obsidian Publish Alternatives (from ChatGPT):
+## CIN
 
- > 
- > **Compatibility**: Not all Obsidian Publish alternatives may be compatible with all versions of Obsidian or all markdown syntax, which can make it difficult to use certain tools or services. 
- > 
- > **Ease of use:** Some Obsidian Publish alternatives may be more difficult to set up or use than others, which can make it frustrating for new users to get started.
- > 
- > **Customization**: Some Obsidian Publish alternatives may not offer as much customization as users may want, making it difficult to tailor the appearance and functionality of their published notes to their specific needs and preferences.
- > 
- > **Performance**: Some Obsidian Publish alternatives may not perform as quickly or smoothly as users may expect, which can make it frustrating to use.
+### Introdução à Aprendizagem Profunda (2025.1)
+Home: https://sites.google.com/cin.ufpe.br/if867
+Books: https://d2l.ai/
 
--- ChatGPT
+#### LuxAI - Aprendizagem de Maquina e Profundo: 
 
-## How the linked-blog-starter template addresses these problems:
+Home: https://luxai.cin.ufpe.br/cursos.html
+Videos: https://www.youtube.com/playlist?list=PL7Od71iXIaNm5lURBew0RRnc4a7Ay4ljU
 
-### Compatibility
 
-[External / extensible libraries](linked-blog-starter-does-not-reinvent-wheel.md) are used to convert Obsidian MD files to common markdown then to HTML
+## MIT
+### Introduction to Data-Centric AI
+Home: https://dcai.csail.mit.edu/
+Video: https://www.youtube.com/@dcai-course/videos
 
-### Ease of Use
 
-Obsidian notes [work out of the box](works-out-of-the-box-with-markdown-files.md) and after the [setup](publish-your-obsidian-notes-with-linked-blog-starter.md), publishing notes is done in 2 steps:
-1. Write a note in `/publish` folder within Obsidian
-2. Run the backup command [using the Obsidian Git plugin](connect-obsidian-vault-with-github.md)
+### MIT 6.S191 - Introduction to Deep Learning
+An efficient and high-intensity bootcamp designed to teach you the fundamentals of deep learning as quickly as possible!
+##### Mon Jan 6 - Fri Jan 10, 2025
+Home: https://introtodeeplearning.com/
+Video: https://www.youtube.com/watch?v=alfdI7S6wCY&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
-### Customization
 
-[Create your own template](deploy-a-custom-linked-blog-starter.md) or use someone else's! Changing the template is simple matter of [updating one line in your repository](update-publish-settings-github-actions.md).
-- There's also an added feature to add "PreviewLinks" to text outside of markdown files. (See the footer in the [example](https://linked-blog-starter.vercel.app/home))
+### TinyML and Efficient Deep Learning Computing
+6.5940 - Fall- 2024
+Home: https://hanlab.mit.edu/courses/2024-fall-65940
 
-### Performance
 
-All markdown files are [statically generated](statically-generated.md) meaning loading speeds are super speedy!
+## CMU
+### Introduction to Deep Learning
+Spring 2025
+Home: https://deeplearning.cs.cmu.edu/S25/index.html
 
-## Getting Started
 
-### Demo
+## Stanford
+### CS231n: Deep Learning for Computer Vision
+Home: https://cs231n.stanford.edu/
+Material: https://cs231n.github.io/
+Video(2017) https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
 
-[https://linked-blog-starter.vercel.app/](https://linked-blog-starter.vercel.app/)
 
-### Deploy your own
+### CS224N: Natural Language Processing with Deep Learning
+home: https://web.stanford.edu/class/cs224n/
+video(2024): https://www.youtube.com/watch?v=DzpHeXVSC5I&list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D
 
-Only deploy through this method, if you want to get a quick server up and running. Otherwise, I'd recommend following the [instructions to integrate this with your Obsidian Vault](publish-your-obsidian-notes-with-linked-blog-starter.md).
+### CS336: Language Modeling from Scratch
+https://stanford-cs336.github.io/spring2024/
+https://stanford-cs336.github.io/spring2025/
+Video(2025): https://www.youtube.com/watch?v=SQ3fZ1sAqXI&list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_
 
-Deploy the example using [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/matthewwong525/linked-blog-starter&project-name=linked-blog-starter&repository-name=linked-blog-starter) or preview live with [StackBlitz](https://stackblitz.com/github/matthewwong525/linked-blog-starter)
+## UC Berkeley
 
-### Create a Custom Fork
+### Introduction to Deep Learning
+STAT 157, UC Berkeley, Spring, 2019
+Home: https://c.d2l.ai/berkeley-stat-157/index.html
 
-Here is an example of how I [forked this repo](https://github.com/fleetingnotes/fleeting-notes-website) to create a landing page for [Fleeting Notes](https://www.fleetingnotes.app/). See [how to deploy a custom version of the linked-blog-starter](deploy-a-custom-linked-blog-starter.md)
 
-![fn-website-demo.gif](attachments/fn-website-demo.gif)
+### Deep Reinforcement Learning
+Home: https://rail.eecs.berkeley.edu/deeprlcourse/
+Video: https://www.youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps
